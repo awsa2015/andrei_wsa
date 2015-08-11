@@ -1,0 +1,15 @@
+input {
+	border-radius: 3px;
+	height: 24px;
+	border: 1px solid #AAA;
+	padding: 0 7px;
+}
+
+input.large {
+	width: 400px;
+}
+
+
+
+
+	<g:datePicker name="requiredBy" precision="day"  value="${taskInstance?.requiredBy}"  />
